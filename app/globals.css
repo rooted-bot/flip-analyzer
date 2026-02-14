@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: 15, 23, 42;
+  --navy-light: 30, 41, 59;
+  --gold: 251, 191, 36;
+  --gold-dark: 217, 119, 6;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+/* Build 1771046057 */
